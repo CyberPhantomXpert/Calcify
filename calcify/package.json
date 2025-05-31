@@ -1,0 +1,35 @@
+{
+  "name": "calcify",
+  "version": "1.0.0",
+  "description": "A comprehensive web-based calculator suite designed to be a versatile mathematical assistant.",
+  "main": "src/app/page.tsx",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint ."
+  },
+  "keywords": [
+    "calculator",
+    "math",
+    "web",
+    "nextjs",
+    "react",
+    "typescript"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "mathjs": "^10.0.0",
+    "tailwindcss": "^2.2.19",
+    "shadcn-ui": "^1.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.4",
+    "eslint": "^7.32.0",
+    "eslint-config-next": "latest"
+  }
+}
